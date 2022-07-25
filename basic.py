@@ -9,3 +9,5 @@ print('x=', x)
 print('y=', y)
 print('id(x)', id(x))
 print('id(y)', id(y))
+print('=================================')
+
