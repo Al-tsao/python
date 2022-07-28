@@ -6,4 +6,5 @@ elif 100 <= num <= 200:
 else:
     print(f"{num} < 100")
 
-#最大值練習
+
+
