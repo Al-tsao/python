@@ -19,11 +19,23 @@ print(f"百位數字:{n % 10}") """
 #指定運算子
 
 #交換數值
+#一般寫法
 x = int(input("X: "))
 y = int(input("y: "))
-temp = x
+""" temp = x
 x = y
 y = temp
+print(f"x: {x}")
+print(f"y: {y}") """
+#在python可用
+x, y = y, x
+print(f"x: {x}")
+print(f"y: {y}")
+
+#比較運算子
+
+#邏輯運算子
+
 
 
 
