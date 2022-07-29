@@ -27,10 +27,12 @@ while x <= 10:
     print(x) """
 
 #無限輸入
-ans = 0
+""" ans = 0
 while True:
     temp = input()
     if temp == "Q":
         break
     ans += int(temp)
-print(ans)
+print(ans) """
+
+num = int(input())
