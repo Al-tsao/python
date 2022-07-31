@@ -23,3 +23,8 @@ for i in range(10):
 #和下面的結果一樣，把for迴圈放到ans的[]中，又把ans.append(i)簡化成i
 ans = [i for i in range(10)]
 print(ans)
+#也可以搭配if使用
+numbers = [30, 40, 80, 90, 110, 10]
+numbers = [v for v in numbers if v >70]
+print(numbers)
+
