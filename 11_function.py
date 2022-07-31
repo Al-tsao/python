@@ -13,5 +13,8 @@ add_numbers(num2=9, num1=3) """
 
 #import
 import random # import整個random package
-import random as r # import整個random package然後命名為r
-from random import randint, shuffle # 只import randint和shuffle兩個function
+# import random as r # import整個random package然後命名為r
+# from random import randint, shuffle # 只import randint和shuffle兩個function
+n = int(input())
+ans = [random.randint(1, 1100) for i in range(n)]
+print(ans)
